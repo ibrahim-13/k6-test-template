@@ -1,0 +1,26 @@
+{
+  "name": "k6-test-template",
+  "version": "1.0.0",
+  "description": "API testing with K6",
+  "main": "main.js",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-block-scoping": "^7.14.1",
+    "@babel/preset-env": "^7.4.4",
+    "@types/k6": "^0.41.0",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.0.1",
+    "moment": "^2.24.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "engines": {},
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "k6"
+  ],
+  "author": "MD. Ibrahim Khan",
+  "license": "ISC"
+}
